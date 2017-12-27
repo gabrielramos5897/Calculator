@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+</head>
+<body>
+	<div id="calc-container">
+	<form name="Calculator">
+		<input type="text" name="Answer" />
+		<br>
+
+		<input type="button" value="1" onclick="Calculator.Answer.value += '1'" />
+		<input type="button" value="2" onclick="Calculator.Answer.value += '2'" />
+		<input type="button" value="3" onclick="Calculator.Answer.value += '3'" />
+		<input type="button" value="+" onclick="Calculator.Answer.value += '+'" />
+		<br />
+
+		<input type="button" value="4" onclick="Calculator.Answer.value += '4'" />
+		<input type="button" value="5" onclick="Calculator.Answer.value += '5'" />
+		<input type="button" value="6" onclick="Calculator.Answer.value += '6'" />
+		<input type="button" value="-" onclick="Calculator.Answer.value += '-'" />
+		<br />
+
+		<input type="button" value="7" onclick="Calculator.Answer.value += '7'" />
+		<input type="button" value="8" onclick="Calculator.Answer.value += '8'" />
+		<input type="button" value="9" onclick="Calculator.Answer.value += '9'" />
+		<input type="button" value="*" onclick="Calculator.Answer.value += '*'" />
+		<br />
+
+		<input type="button" value="C" onclick="Calculator.Answer.value = '' " />
+		<input type="button" value="0" onclick="Calculator.Answer.value += '0'" />
+		<input type="button" value="=" onclick="Calculator.Answer.value = eval(Calculator.Answer.value)" />
+		<input type="button" value="/" onclick="Calculator.Answer.value += '/'" />
+		<br />
+
+
+
+	</form>	
+
+	</div>
+
+</body>
+</html>
